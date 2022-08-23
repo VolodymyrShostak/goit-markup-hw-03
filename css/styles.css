@@ -74,19 +74,29 @@ text-decoration: none;
 .contacts .link.current {
     color: var(--accent-color);
 }
-
+.hero {
+    text-align: center;
+}
 .hero, .footer {
     background-color:#2F303A;
 }
 
 .hero-title {
-margin-top: 0;
-margin-bottom: 0;
+margin-top:0;
+margin-bottom:100width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;0px;
+
 color: #FFFFFF;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
@@ -128,25 +138,38 @@ padding: 10px 32px ;
  background-color:var(--accent-color);
   color: var(--primaty-white-color);}
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 24px;
+}
+
 .section-title {
+    margin-top: 0;
+    margin-bottom: 0;
 color:var(--title-text-color);
 font-size: 36px;
 line-height: 1.67;
 text-align: center;
 letter-spacing: 0.03em;
-  
+
 } 
 .title   {
-    color:var(--title-text-color);
+margin-top: 0; 
+margin-bottom: 10px;
+color:var(--title-text-color);
 
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+.image-list {
+   padding-top: 50px; 
+}
 
 .priority .text {
-    
+margin-top: 0; 
+margin-bottom: 0;   
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
