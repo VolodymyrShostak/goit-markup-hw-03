@@ -164,7 +164,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .image-list {
-   padding-top: 50px; 
+   padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .priority .text {
@@ -174,23 +175,55 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 }
+.shadow {
+    background: #F5F4FA;
+    padding-bottom: 94px;
+}
+.personal {
+    margin-top: 50px;
+}
+.personal-card {
+    width: 270px;
+    height: 368px;
+    background-color: #FFFFFF;
+}
+.personal-data {
+text-align: center;
 
-.personal .position {
-font-size: 16px;
-line-height: 1.19;
-letter-spacing: 0.03em;
- 
+
 }
 
-.name {
 
+.name {
+margin-top: 30px;
+margin-bottom: 0;
 color:var(--title-text-color);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 }
+.position {
+margin-top: 10px;
+margin-bottom: 0;     
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
 
 /* footer */
+.footer {
+    height: 252px;
+    padding-top: 60px;
+}
+.footer .logo {
+    margin-left: 215px;
+  
+    
+
+ 
+
+}
 .post-address, .address .contact {
 color: #FFFFFF ;
 font-family: 'Roboto';
@@ -198,6 +231,14 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+margin-left: 215px;
+}
+.address {
+    margin-top: 20px;
+}
+
+.contact {
+    margin-top: 9px;
 }
 .address .contact {
     color: rgba(255, 255, 255, 0.6);
