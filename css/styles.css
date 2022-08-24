@@ -249,7 +249,18 @@ margin-left: 215px;
 
 
 /* portfolio */
+.button-filter {
+    padding-bottom: 16px;
+    margin-bottom: 34px;
+}
+.card-example {
+    width: 370px;
+    height: 404px;
+    background-color: #FFFFFF; 
+}
 .name-example {
+    margin-top: 20px;
+    margin-bottom: 0; 
 color:var(--title-text-color);  
 font-size: 18px;
 line-height: 2;
@@ -257,6 +268,8 @@ letter-spacing: 0.06em;
 }
 
 .branch {
+    margin-top: 4px;
+margin-bottom: 20px;
      font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
