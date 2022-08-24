@@ -48,8 +48,15 @@ line-height: 1.2;
 .page-header {
 
 }
+.site-nav  {
+    display: flex;
+}
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
 
 .site-nav .link, .contacts .link {
+   
 color:var(--title-text-color);
 font-weight: 500;
 font-size: 14px;
@@ -57,11 +64,16 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
+.contacts {
+    display: flex;  
+}
+.contacts .item:not(:last-child) {
+    margin-right: 50px;
+}
 
 .contacts .link {
     color: #757575 ;
-   
-}
+ }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
