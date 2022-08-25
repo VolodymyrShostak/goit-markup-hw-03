@@ -12,6 +12,10 @@ background-color: white;
 color:#757575 ;
 letter-spacing: 0.03em;
 }
+.page-header {
+    width: 1600px;
+    border-bottom: #ECECEC;
+}
 .decoration {
     text-decoration: none;
 }
@@ -19,18 +23,21 @@ letter-spacing: 0.03em;
 .header-links {
 display: flex;
 align-items: center;
-justify-content: ;
+padding-left: 0;
 }
+
 .container {
 width: 1200px; 
-padding-left: 15px;   
-padding-right: 15px;
 margin: 0 auto;
 
+}
+.header-links {
+  margin: auto;
 
 }
 /* logo */
 .logo {
+
 font-family: 'Raleway', sans-serif;
 font-style: Bold;
 font-size: 26px;
@@ -51,9 +58,7 @@ line-height: 1.2;
     padding: 0;
     margin: 0;
 }
-.page-header {
 
-}
 .site-nav  {
     display: flex;
     margin-left: 93px;
@@ -71,9 +76,11 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
 }
+
 .contacts {
     display: flex;  
     margin-left: auto;
+    justify-content: flex-end;
   
 }
 .contacts .item:not(:last-child) {
@@ -100,13 +107,16 @@ text-decoration: none;
 }
 .hero {
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero, .footer {
+    width: 1600px;
     background-color:#2F303A;
 }
 
 .hero-title {
-margin-top:0;
+margin-top :0px;
 margin-bottom: 30
 px;
 margin-left: auto;
@@ -157,6 +167,7 @@ padding: 10px 32px ;
   color: var(--primaty-white-color);}
 
 .section {
+    width: 1600px;
     padding-top: 94px;
     padding-bottom: 24px;
     outline: 2px solid tomato;
@@ -172,6 +183,15 @@ text-align: center;
 letter-spacing: 0.03em;
 
 } 
+.priority {
+    display: flex;
+} 
+.priority-item {
+    width: 270px;
+    margin-left: 15px;
+    margin-right: 15px;
+} 
+
 .title   {
 margin-top: 0; 
 margin-bottom: 10px;
@@ -183,6 +203,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
+
 .priority .text {
     margin-top: 0; 
     margin-bottom: 0;   
@@ -190,15 +211,17 @@ text-transform: uppercase;
     line-height: 1.7;
     letter-spacing: 0.03em;
     }
-.priority {
-    display: flex;
-} 
-priority-item {
-    width: 270px;
-} 
+
+
 .image-list {
+    display: flex;
    padding-top: 50px;
     padding-bottom: 70px;
+}
+.image-item {
+    margin-left: 15px;
+    margin-right: 15px;
+
 }
 
 
@@ -208,9 +231,14 @@ priority-item {
 }
 .personal {
     margin-top: 50px;
+    display: flex;
+
 }
+
 .personal-card {
     width: 270px;
+    margin-left: 15px;
+    margin-right: 15px;
     height: 368px;
     background-color: #FFFFFF;
 }
@@ -243,14 +271,7 @@ letter-spacing: 0.03em;
     height: 252px;
     padding-top: 60px;
 }
-.footer .logo {
-    margin-left: 215px;
-  
-    
 
- 
-
-}
 .post-address, .address .contact {
 color: #FFFFFF ;
 font-family: 'Roboto';
@@ -258,7 +279,7 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-margin-left: 215px;
+
 }
 .address {
     margin-top: 20px;
@@ -278,9 +299,16 @@ margin-left: 215px;
 
 
 /* portfolio */
+
 .button-filter {
     padding-bottom: 16px;
     margin-bottom: 34px;
+    display: flex;
+    justify-content: center;
+    
+}
+.button-item:not(:last-child) {
+    margin-right: 8px;
 }
 .work-example {
     display: flex;
@@ -293,6 +321,9 @@ margin-left: 215px;
     width: 370px;
     height: 404px;
     background-color: #FFFFFF; 
+
+}
+.card-title { 
 
 }
 .card-example:nth-last-child(-n+3) {
