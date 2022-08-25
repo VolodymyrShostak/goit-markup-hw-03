@@ -14,7 +14,7 @@ letter-spacing: 0.03em;
 }
 .page-header {
     width: 1600px;
-    border-bottom: #ECECEC;
+    border-bottom:1px solid #ECECEC;
 }
 .decoration {
     text-decoration: none;
@@ -153,8 +153,9 @@ padding: 10px 32px ;
 }
 
 .button.secondary {
- background-color:var(--primaty-white-color);
+ background-color: F5F4FA;
  color:var(--title-text-color);
+ border: none;
 }
 
 .button.secondary:hover,
@@ -170,7 +171,7 @@ padding: 10px 32px ;
     width: 1600px;
     padding-top: 94px;
     padding-bottom: 24px;
-    outline: 2px solid tomato;
+  
 }
 
 .section-title {
