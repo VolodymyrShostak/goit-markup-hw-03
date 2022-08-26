@@ -33,6 +33,8 @@ align-items: center;
 
 .container {
 margin: 0 auto;
+padding-left: 15px;
+padding-right: 15px;
 width: 1200px; 
 
 }
@@ -196,15 +198,17 @@ letter-spacing: 0.03em;
 } 
 .priority {
     display: flex;
+
+
 } 
+
 .priority-item {
-    margin-right: 30px;  
-    width: 270px;
+      width: 270px;
 } 
 
-
-
-    
+.priority-item:not(:last-child) {
+    margin-right: 30px;
+}
 
 .title   {
 
@@ -233,10 +237,8 @@ text-transform: uppercase;
     display: flex;
   
 }
-.image-item {
-    margin-left: 15px;
-    margin-right: 15px;
-
+.image-item:not(:last-child) {
+    margin-right: 30px;
   }
 .shadow {
 
@@ -252,11 +254,12 @@ text-transform: uppercase;
 
 .personal-card {
 
-    margin-left: 15px;
-    margin-right: 15px;
     width: 270px;
     background-color: #FFFFFF;
 }
+.personal-card:not(:last-child) {
+    margin-right: 30px;}
+
 .personal-data {
 
     padding-top: 30px;
