@@ -123,7 +123,7 @@ text-align: center;
 }
 
 .hero, .footer {
-width: 1600px;
+
 background-color:#2F303A;
 }
 
@@ -148,7 +148,7 @@ color:var(--title-text-color);
 background: #F5F4FA;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14;
+line-height: 1.62;
 letter-spacing: 0.02em;
 border-radius: 4px;
 
@@ -182,7 +182,6 @@ color: var(--primaty-white-color);}
 .section {
 padding-top: 94px;
 padding-bottom: 94px;
-width: 1600px;
   
 }
 .direction {
@@ -194,7 +193,7 @@ margin-top: 0;
 margin-bottom: 0;
 color:var(--title-text-color);
 font-size: 36px;
-line-height: 1.67;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 } 
@@ -316,10 +315,13 @@ color: var(--accent-color);
 /* portfolio */
 
 .button-filter {
-padding-bottom: 16px;
-margin-bottom: 34px;
+
+margin-bottom: 50px;
 display: flex;
 justify-content: center;
+}
+.filter {
+    padding: 6px 22px ;
 }
 
 .button-item:not(:last-child) {
@@ -362,6 +364,7 @@ margin-right: 0px;
 
 .name-example {
 margin-bottom: 0; 
+margin-top: 0;
 color:var(--title-text-color);  
 font-size: 18px;
 line-height: 2;
@@ -370,6 +373,7 @@ letter-spacing: 0.06em;
 
 .branch {
 margin-top: 4px;
+margin-bottom: 0;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
