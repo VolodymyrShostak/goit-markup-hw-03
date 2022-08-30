@@ -16,7 +16,6 @@ letter-spacing: 0.03em;
 .page-header {
 padding-top: 24px;
 padding-bottom: 24px;
-width: 1600px;
 border-bottom:1px solid #ECECEC;
 }
 .decoration {
@@ -322,6 +321,7 @@ justify-content: center;
 }
 .filter {
     padding: 6px 22px ;
+    font-size: 16px;
 }
 
 .button-item:not(:last-child) {
